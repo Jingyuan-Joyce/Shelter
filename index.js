@@ -28,10 +28,10 @@ app.get("/", controller.landing_page);
 
 
 // the application page with the map
-// app.get("/map", controller.map_page);
+app.get("/map", controller.map_page);
 
 // the profile page
-// app.get("//profile", controller.profle_page);
+app.get("/profile", controller.profile_page);
 
 
 
