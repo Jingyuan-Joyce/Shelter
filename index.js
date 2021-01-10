@@ -20,9 +20,6 @@ app.set("view engine", "ejs");
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
 
-
- 
-
 // the landing page
 app.get("/", controller.landing_page);
 
@@ -33,6 +30,7 @@ app.get("/map", controller.map_page);
 // the profile page
 app.get("/profile", controller.profile_page);
 
+app.get("/shelter_login", controller.shelter_login);
 
 
 
