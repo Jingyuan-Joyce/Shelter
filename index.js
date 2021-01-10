@@ -1,10 +1,61 @@
 const express = require("express");
 const https = require("https");
-
+const layouts = require("express-ejs-layouts");
+const ejs = require("ejs");
+const bodyParser = require("body-parser");
+const PORT = process.env.PORT || "8000";
+const controller = require("./controllers/controllers")
 
 const app = express();
 
-const PORT = process.env.PORT || "8000";
+// connects the public folder
+app.use(express.static(__dirname + "/public"));
+
+// uses the express-ejs-layouts template
+app.use(layouts);
+
+// connects the views folder with ejs
+app.set("view engine", "ejs");
+
+app.use(bodyParser.urlencoded({extended: true}));
+app.use(bodyParser.json());
+
+
+
+
+// the landing page
+app.get("/", controller.landing_page);
+
+
+// the application page with the map
+// app.get("/map", controller.map_page);
+
+// the profile page
+// app.get("//profile", controller.profle_page);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 app.listen(PORT, function() {
     console.log("server is running on local host 8000");
