@@ -1,0 +1,51 @@
+.border-right {
+    border-right: 3rem;
+    border-color: white;
+}
+
+
+.info-card {
+    height: 17rem;
+    background-color: #0f366f;
+    color: white;
+    margin: auto;
+}
+
+.info-content {
+    margin: auto;
+    text-align: center;
+}
+
+.info-big {
+    font-size: 6.7rem;
+}
+
+.info-medium {
+    font-size: 5rem;
+}
+
+.info-descriptor {
+    height: 7rem;
+}
+
+.services-font {
+    font-size: 3rem;
+}
+
+.edit-button {
+    margin: 0.6rem;
+
+}
+
+.info-top {
+    height: 9rem;
+}
+
+.services-card {
+    padding-top: 18%;
+
+}
+
+.profile-info {
+    display: inline-block;
+}
