@@ -1,7 +1,6 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+html, 
+body {
+    height: 100%;
 }
 
 nav{
@@ -13,13 +12,23 @@ nav{
     font-family: 'Poppins', sans-serif;
 }
 
+h1, h2 {
+    color:#20B2AA;
+}
+
+a.nav-link {
+    font-size: 1.2em;
+}
+
+.pageTitle {
+    color:white;
+}
+
 .logo{
     color: white;
     text-transform: uppercase;
     letter-spacing: 5px;
-    font-size: 22px;
-    margin-right: 20%;
-
+    font-size: 24px;
 }
 
 .nav-links li{
