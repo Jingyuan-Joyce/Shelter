@@ -16,6 +16,10 @@ h1, h2 {
     color:#20B2AA;
 }
 
+a.nav-link {
+    font-size: 1.2em;
+}
+
 .pageTitle {
     color:white;
 }
