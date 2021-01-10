@@ -54,19 +54,20 @@ a.nav-link {
 
 /*FOOTER*/
 
-.footer {
-    background-color: #20B2AA;
-    color: white;
-    height: 150px;
-}
-
 .footer-content {
+    background-color: #20B2AA;
+    color:white;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin: 0 auto;
-     
+    margin: 0 auto;  
+    padding: 1em;
 }
+
+.footer-content a{
+    color:white; 
+}
+
 .footer-sectionaboutus{
     display: flex;
     flex-direction: column;
@@ -76,7 +77,6 @@ a.nav-link {
     display: flex;
     flex-direction: column;
     margin-right: 4rem;
-
 }
 .footer-sectionjoin{
     display: flex;
