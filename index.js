@@ -21,7 +21,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
 
 
-
+ 
 
 // the landing page
 app.get("/", controller.landing_page);
