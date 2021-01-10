@@ -14,6 +14,10 @@ const controller = {
     
     profile_page: (req, res) => {
         res.render("pages/profile_page");
+    },
+
+    shelter_login: (req, res) => {
+        res.render("pages/shelter_login");
     }
 };
 
