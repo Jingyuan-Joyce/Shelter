@@ -1,7 +1,6 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+html, 
+body {
+    height: 100%;
 }
 
 nav{
@@ -13,13 +12,23 @@ nav{
     font-family: 'Poppins', sans-serif;
 }
 
+h1, h2 {
+    color:#20B2AA;
+}
+
+a.nav-link {
+    font-size: 1.2em;
+}
+
+.pageTitle {
+    color:white;
+}
+
 .logo{
     color: white;
     text-transform: uppercase;
     letter-spacing: 5px;
     font-size: 24px;
-    margin-right: 20%;
-
 }
 
 .nav-links li{
@@ -42,6 +51,53 @@ nav{
     font-weight: bold;
     font-size: 15px;
 }
+
+/*FOOTER*/
+
+.footer-content {
+    background-color: #20B2AA;
+    color:white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;  
+    padding: 1em;
+}
+
+.footer-content a{
+    color:white; 
+}
+
+.footer-sectionaboutus{
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+}
+.footer-sectionresources{
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+}
+.footer-sectionjoin{
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+
+}
+
+/* .footer .footer-bottom{
+    height: 50px;
+    width: 100%;
+    bottom: 0px;
+    text-align: center;
+    position: absolute;
+    left: 0px;
+    
+    
+} */
+
+
+
 
 
 
