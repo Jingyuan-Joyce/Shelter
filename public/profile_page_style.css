@@ -21,7 +21,7 @@
 }
 
 .info-medium {
-    font-size: 5rem;
+    font-size: 6rem;
 }
 
 .info-descriptor {
@@ -46,6 +46,18 @@
 
 }
 
-.profile-info {
+.profile-info-box {
     display: inline-block;
+}
+
+.edit-services-btn {
+    margin-top: 2rem;;
+}
+
+.profile-info {
+    padding-left: 2rem;
+}
+
+.profile-info-text {
+    padding-top: 1rem;
 }
